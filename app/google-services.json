@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "6859705950",
+    "firebase_url": "https://pbc-naturals.firebaseio.com",
+    "project_id": "pbc-naturals",
+    "storage_bucket": "pbc-naturals.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6859705950:android:496730e5ab18df1e0a6ecf",
+        "android_client_info": {
+          "package_name": "pbc.naturals.pbc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6859705950-e1grr89b3tcgdj65b78uij2gfga2s2k5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-rGCtppGB02VAHp6xxSShO0n-Jjtkn3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6859705950-e1grr89b3tcgdj65b78uij2gfga2s2k5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
