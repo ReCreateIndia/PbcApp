@@ -24,17 +24,17 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="pbc.naturals.pbc.RegisterActivity" >
-        </activity>
-        <activity android:name="pbc.naturals.pbc.LoginActivity" >
-        </activity>
-        <activity android:name="pbc.naturals.pbc.ItemDetail" />
-        <activity android:name="pbc.naturals.pbc.MainActivity" >
+        <activity android:name="pbc.naturals.pbc.MainActivity2" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="pbc.naturals.pbc.RegisterActivity" />
+        <activity android:name="pbc.naturals.pbc.LoginActivity" />
+        <activity android:name="pbc.naturals.pbc.ItemDetail" />
+        <activity android:name="pbc.naturals.pbc.MainActivity" >
         </activity>
 
         <service

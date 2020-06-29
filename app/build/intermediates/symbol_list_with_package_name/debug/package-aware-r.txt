@@ -649,6 +649,10 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color color1
+color color2
+color color3
+color color4
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -1100,7 +1104,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable donate1
+drawable donate2
 drawable donate3
+drawable donate4
 drawable error
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -1271,6 +1278,7 @@ id icon
 id icon_group
 id icon_only
 id ifRoom
+id im1
 id image
 id image_slider
 id image_view
@@ -1419,6 +1427,7 @@ id up
 id useLogo
 id username
 id videoView1
+id viewPager
 id view_offset_helper
 id view_pager
 id visible
@@ -1484,6 +1493,7 @@ layout abc_tooltip
 layout activity_item_detail
 layout activity_login
 layout activity_main
+layout activity_main2
 layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1502,6 +1512,7 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout header
 layout image_slider
+layout item
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
