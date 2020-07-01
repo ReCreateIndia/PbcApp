@@ -60,20 +60,14 @@ public class MainActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_main);
         firebaseAuth=FirebaseAuth.getInstance();
         firebaseUser=firebaseAuth.getCurrentUser();
+        mediaController=new MediaController(this);
         videoView=findViewById(R.id.videoView1);
-        videoView.setOnTouchListener(new View.OnTouchListener() {
+        videoView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                startVideo(videoView);
-                return true;
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,MainActivity2.class));
             }
         });
-
-
-
-
-        mediaController=new MediaController(this);
-
         ff=FirebaseFirestore.getInstance();
         Map<String,Object>map=new HashMap<>();
         map.put("name","yo");
@@ -95,14 +89,6 @@ public class MainActivity extends AppCompatActivity  {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         NavigationView navigationView=(NavigationView)findViewById(R.id.n1);
 
-
-        startVideo(videoView);
-        videoView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent());
-            }
-        });
     }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -111,18 +97,6 @@ public class MainActivity extends AppCompatActivity  {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-    private void startVideo(VideoView view){
-        String src="android.resource://pbc.naturals.pbc/"+R.raw.sam;
-        Uri uri=Uri.parse(src);
-        videoView.setVideoURI(uri);
-        videoView.requestFocus();
-        view.start();
-
-//        if(!view.isPlaying()){
-//            startVideo(view);
-//        }
-
     }
 
     @Override

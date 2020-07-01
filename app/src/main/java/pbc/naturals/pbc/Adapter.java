@@ -1,6 +1,7 @@
 package pbc.naturals.pbc;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,13 +36,19 @@ public class Adapter extends PagerAdapter{
 
     @NonNull
     @Override
-    public Object instantiateItem(@NonNull ViewGroup container, int position) {
+    public Object instantiateItem(@NonNull final ViewGroup container, int position) {
         layoutInflater=LayoutInflater.from(context);
         View view =layoutInflater.inflate(R.layout.item,container,false);
         ImageView imageView;
         TextView title;
         imageView=view.findViewById(R.id.image);
         title=view.findViewById(R.id.im1);
+        title.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                context.startActivity(new Intent(context,LoginActivity.class));
+            }
+        });
         imageView.setImageResource(models.get(position).getImage());
         title.setText(models.get(position).getTitle());
         container.addView(view,0);

@@ -1541,9 +1541,6 @@ menu example_menu
 menu nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
-raw bla
-raw sam
-raw sample
 string Close
 string Open
 string abc_action_bar_home_description
