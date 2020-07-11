@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:gravity="center"
     android:layout_height="match_parent">
@@ -11,37 +12,120 @@
         app:cardCornerRadius="20dp"
         android:layout_margin="8dp">
         <RelativeLayout
-
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="350dp"
             >
+
             <ImageView
-                android:layout_width="match_parent"
                 android:id="@+id/image"
+                android:layout_width="0dp"
                 android:layout_height="250dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:scaleType="centerCrop"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
                 android:background="@drawable/donate1"
-                />
+                android:scaleType="centerCrop" />
 
             <TextView
-                android:id="@+id/im1"
-                android:layout_below="@+id/image"
+                android:id="@+id/price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:text="donate money"
-                android:textSize="35sp"
-                />
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="51dp"
+                android:layout_marginLeft="51dp"
+                android:layout_marginBottom="62dp"
+                android:text="price" />
 
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginBottom="64dp"
+                android:layout_toEndOf="@+id/price"
+                android:layout_toRightOf="@+id/price"
+                android:text="200" />
 
+            <TextView
+                android:id="@+id/or"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="62dp"
+                android:layout_toEndOf="@+id/textView6"
+                android:layout_toRightOf="@+id/textView6"
+                android:text="or" />
 
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginBottom="64dp"
+                android:layout_toEndOf="@+id/or"
+                android:layout_toRightOf="@+id/or"
+                android:text="160" />
 
+            <TextView
+                android:id="@+id/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginBottom="62dp"
+                android:layout_toEndOf="@+id/textView8"
+                android:layout_toRightOf="@+id/textView8"
+                android:text="+"
+                android:textSize="20sp" />
 
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginBottom="64dp"
+                android:layout_toEndOf="@+id/plus"
+                android:layout_toRightOf="@+id/plus"
+                android:text="40" />
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="38dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginBottom="56dp"
+                android:layout_toEndOf="@+id/textView10"
+                android:layout_toRightOf="@+id/textView10"
+                tools:srcCompat="@tools:sample/avatars" />
 
+            <Button
+                android:id="@+id/bookNow"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="129dp"
+                android:layout_marginRight="129dp"
+                android:layout_marginBottom="6dp"
+                android:background="@color/color3"
+                android:text="booknow" />
 
         </RelativeLayout>
 

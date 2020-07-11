@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_settings_black_24dp.png.flat",
-        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_keyboard_return_black_24dp.png.flat",
         "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_keyboard_return_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_settings_black_24dp.png.flat",
+        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_settings_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_settings_black_24dp.png.flat",

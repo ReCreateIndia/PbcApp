@@ -42,15 +42,15 @@ public class Adapter extends PagerAdapter{
         ImageView imageView;
         TextView title;
         imageView=view.findViewById(R.id.image);
-        title=view.findViewById(R.id.im1);
-        title.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                context.startActivity(new Intent(context,LoginActivity.class));
-            }
-        });
+//        title=view.findViewById(R.id.im1);
+//        title.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                context.startActivity(new Intent(context,LoginActivity.class));
+//            }
+//        });
         imageView.setImageResource(models.get(position).getImage());
-        title.setText(models.get(position).getTitle());
+        //title.setText(models.get(position).getTitle());
         container.addView(view,0);
 
         return view;

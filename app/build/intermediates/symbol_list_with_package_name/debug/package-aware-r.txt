@@ -1427,7 +1427,9 @@ id up
 id useLogo
 id username
 id videoView1
-id viewPager
+id viewPager1
+id viewPager2
+id viewPager3
 id view_offset_helper
 id view_pager
 id visible

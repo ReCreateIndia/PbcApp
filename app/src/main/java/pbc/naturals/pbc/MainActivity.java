@@ -61,24 +61,13 @@ public class MainActivity extends AppCompatActivity  {
         firebaseAuth=FirebaseAuth.getInstance();
         firebaseUser=firebaseAuth.getCurrentUser();
         mediaController=new MediaController(this);
-        videoView=findViewById(R.id.videoView1);
-        videoView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,MainActivity2.class));
-            }
-        });
-        ff=FirebaseFirestore.getInstance();
-        Map<String,Object>map=new HashMap<>();
-        map.put("name","yo");
-        ff.collection("new").document().set(map);
+
         ImageSlider imageslider = findViewById(R.id.image_slider);
         List<SlideModel> slideModels = new ArrayList<>();
         slideModels.add(new SlideModel(R.drawable.d5));
         slideModels.add(new SlideModel(R.drawable.d4));
         slideModels.add(new SlideModel(R.drawable.d3));
         slideModels.add(new SlideModel(R.drawable.d1));
-
         slideModels.add(new SlideModel(R.drawable.d2));
         imageslider.setImageList(slideModels, true);
 
