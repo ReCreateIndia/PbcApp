@@ -25,8 +25,20 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="pbc.naturals.pbc.MainActivity2" >
+        <activity android:name="pbc.naturals.pbc.Padecure" />
+        <activity android:name="pbc.naturals.pbc.Manecure" />
+        <activity android:name="pbc.naturals.pbc.Haircut" />
+        <activity android:name="pbc.naturals.pbc.Bleach" />
+        <activity android:name="pbc.naturals.pbc.FaceTreatment" />
+        <activity android:name="pbc.naturals.pbc.HairSpa" />
+        <activity android:name="pbc.naturals.pbc.BodyPolishing" />
+        <activity android:name="pbc.naturals.pbc.HairStyle" />
+        <activity android:name="pbc.naturals.pbc.Threading" />
+        <activity android:name="pbc.naturals.pbc.Wax" />
+        <activity android:name="pbc.naturals.pbc.Facial" >
         </activity>
+        <activity android:name="pbc.naturals.pbc.BridalPackage" />
+        <activity android:name="pbc.naturals.pbc.MainActivity2" />
         <activity android:name="pbc.naturals.pbc.RegisterActivity" />
         <activity android:name="pbc.naturals.pbc.LoginActivity" />
         <activity android:name="pbc.naturals.pbc.ItemDetail" />

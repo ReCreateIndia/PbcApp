@@ -59,58 +59,58 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-    viewPager2 = findViewById(R.id.viewPager2);
+        viewPager2 = findViewById(R.id.viewPager2);
         viewPager2.setAdapter(adapter);
         viewPager2.setPadding(130, 0, 130, 0);
         viewPager2.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-        @Override
-        public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-            if(position<(adapter.getCount()-1)&& position <(colors.length-1))
-            {
-                viewPager2.setBackgroundColor((Integer) argbEvaluator.evaluate(positionOffset,colors[position],colors[position+1]));
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                if(position<(adapter.getCount()-1)&& position <(colors.length-1))
+                {
+                    viewPager2.setBackgroundColor((Integer) argbEvaluator.evaluate(positionOffset,colors[position],colors[position+1]));
+                }
+                else
+                {
+                    viewPager2.setBackgroundColor(colors[colors.length-1]);
+                }
             }
-            else
-            {
-                viewPager2.setBackgroundColor(colors[colors.length-1]);
+
+            @Override
+            public void onPageSelected(int position) {
+
             }
-        }
 
-        @Override
-        public void onPageSelected(int position) {
+            @Override
+            public void onPageScrollStateChanged(int state) {
 
-        }
-
-        @Override
-        public void onPageScrollStateChanged(int state) {
-
-        }
-    });
+            }
+        });
 
         viewPager3 = findViewById(R.id.viewPager3);
-                viewPager3.setAdapter(adapter);
-                viewPager3.setPadding(130, 0, 130, 0);
-                viewPager3.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-        @Override
-        public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-        if(position<(adapter.getCount()-1)&& position <(colors.length-1))
-        {
-        viewPager3.setBackgroundColor((Integer) argbEvaluator.evaluate(positionOffset,colors[position],colors[position+1]));
-        }
-        else
-        {
-        viewPager3.setBackgroundColor(colors[colors.length-1]);
-        }
-        }
+        viewPager3.setAdapter(adapter);
+        viewPager3.setPadding(130, 0, 130, 0);
+        viewPager3.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                if(position<(adapter.getCount()-1)&& position <(colors.length-1))
+                {
+                    viewPager3.setBackgroundColor((Integer) argbEvaluator.evaluate(positionOffset,colors[position],colors[position+1]));
+                }
+                else
+                {
+                    viewPager3.setBackgroundColor(colors[colors.length-1]);
+                }
+            }
 
-@Override
-public void onPageSelected(int position) {
+            @Override
+            public void onPageSelected(int position) {
 
-        }
+            }
 
-@Override
-public void onPageScrollStateChanged(int state) {
+            @Override
+            public void onPageScrollStateChanged(int state) {
 
-        }
+            }
         });
         }
 }

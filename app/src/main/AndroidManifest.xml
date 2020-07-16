@@ -9,18 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity2">
+        <activity android:name=".Padecure"></activity>
+        <activity android:name=".Manecure" />
+        <activity android:name=".Haircut" />
+        <activity android:name=".Bleach" />
+        <activity android:name=".FaceTreatment" />
+        <activity android:name=".HairSpa" />
+
+        <activity android:name=".BodyPolishing" />
+        <activity android:name=".HairStyle" />
+        <activity android:name=".Threading" />
+        <activity android:name=".Wax" />
+        <activity android:name=".Facial">
 
         </activity>
-        <activity android:name=".RegisterActivity"></activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".BridalPackage" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".ItemDetail" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
     </application>
 
