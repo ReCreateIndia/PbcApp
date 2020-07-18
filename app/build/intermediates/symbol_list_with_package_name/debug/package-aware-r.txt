@@ -1231,6 +1231,7 @@ id always
 id async
 id auto
 id barrier
+id beauty
 id beginning
 id bleach
 id bleachproduct
@@ -1284,6 +1285,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id drawerlayout
 id edit_query
 id end
 id end_padder
@@ -1305,6 +1307,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id fragment_container
 id getpoints
 id ghost_view
 id gone
@@ -1421,6 +1424,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id selectbottomnavview
 id selected
 id setting
 id shortcut
@@ -1483,6 +1487,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id treatment
 id unchecked
 id uniform
 id unlabeled
@@ -1568,6 +1573,7 @@ layout activity_item_detail
 layout activity_login
 layout activity_main
 layout activity_main2
+layout activity_main_fragment_holder
 layout activity_manecure
 layout activity_padecure
 layout activity_register
@@ -1589,6 +1595,8 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_beauty
+layout fragment_treatment
 layout header
 layout image_slider
 layout item
@@ -1616,6 +1624,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout singleitem
 layout support_simple_spinner_dropdown_item
+menu bottommeny
 menu drawermenu
 menu example_menu
 menu nav_menu
@@ -1682,6 +1691,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description

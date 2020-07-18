@@ -45,14 +45,12 @@ public class MainActivity extends AppCompatActivity  {
     FirebaseFirestore ff;
     private RecyclerView mfirestorelist;
     FirestoreRecyclerAdapter adapter;
-    DrawerLayout drawerLayout;
-    private NavigationView navigationView;
-     private CardView c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13;
-    private ActionBarDrawerToggle toggle;
+
     private VideoView videoView;
     private MediaController mediaController;
     private FirebaseAuth firebaseAuth;
     private FirebaseUser firebaseUser;
+    private CardView c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13;
 
 
 
@@ -63,15 +61,7 @@ public class MainActivity extends AppCompatActivity  {
         firebaseAuth=FirebaseAuth.getInstance();
         firebaseUser=firebaseAuth.getCurrentUser();
         mediaController=new MediaController(this);
-        c1=(CardView)findViewById(R.id.makeup);
-        c2=(CardView)findViewById(R.id.bridal1);
-        c3=(CardView)findViewById(R.id.facial);
-        c4=(CardView)findViewById(R.id.wax);
-        c5=(CardView)findViewById(R.id.threading);
-        c6=(CardView)findViewById(R.id.manecure);
-        c7=(CardView)findViewById(R.id.padecure);
-        c8=(CardView)findViewById(R.id.haircut);
-        c9=(CardView)findViewById(R.id.hairstyle);
+
         c10=(CardView)findViewById(R.id.bodypolishing);
         c11=(CardView)findViewById(R.id.facetreatment);
         c12=(CardView) findViewById(R.id.hairspa);
@@ -159,28 +149,15 @@ public class MainActivity extends AppCompatActivity  {
 
         ImageSlider imageslider = findViewById(R.id.image_slider);
         List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel(R.drawable.d5));
-        slideModels.add(new SlideModel(R.drawable.d4));
-        slideModels.add(new SlideModel(R.drawable.d3));
-        slideModels.add(new SlideModel(R.drawable.d1));
-        slideModels.add(new SlideModel(R.drawable.d2));
+        slideModels.add(new SlideModel(R.drawable.facial));
+        slideModels.add(new SlideModel(R.drawable.forhhead));
+        slideModels.add(new SlideModel(R.drawable.haircut));
+        slideModels.add(new SlideModel(R.drawable.hiarstyle));
+        slideModels.add(new SlideModel(R.drawable.makeup));
         imageslider.setImageList(slideModels, true);
 
-        drawerLayout=findViewById(R.id.main_drawer);
-        toggle=new ActionBarDrawerToggle(this,drawerLayout,R.string.Open,R.string.Close);
-        drawerLayout.addDrawerListener(toggle);
-        toggle.syncState();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        NavigationView navigationView=(NavigationView)findViewById(R.id.n1);
 
-    }
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (toggle.onOptionsItemSelected(item)) {
 
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
     }
 
 //    @Override

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TreatmentFragment">
+
+    <ScrollView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                app:auto_cycle="true"
+                app:corner_radius="20"
+                app:period="1000"
+                app:delay="0"
+                android:layout_marginBottom="70dp"
+                tools:ignore="MissingConstraints" >
+            </com.denzcoskun.imageslider.ImageSlider>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="2"
+                android:layout_marginBottom="30dp"
+
+
+                android:columnCount="2">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bodypolishing"
+
+                    android:layout_columnWeight="1"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="25dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginTop="30dp"
+                    >
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/bodypolishingg"
+                            android:scaleType="fitXY"
+
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Body Polishing"
+                            android:layout_alignParentBottom="true"
+                            android:textSize="25sp"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold"
+                            android:paddingBottom="5dp"
+                            android:layout_marginLeft="12dp"
+                            />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facetreatment"
+
+                    android:layout_columnWeight="1"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="25dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginTop="30dp"
+                    >
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/bodypolishingg"
+                            android:scaleType="fitXY"
+
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Face Treatment"
+                            android:layout_alignParentBottom="true"
+                            android:textSize="25sp"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold"
+                            android:paddingBottom="5dp"
+                            android:layout_marginLeft="12dp"
+                            />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hairspa"
+
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="35dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginTop="30dp"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/haoirryrspa"
+                            android:scaleType="fitXY"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hair Spa"
+                            android:layout_alignParentBottom="true"
+                            android:textSize="25sp"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold"
+                            android:paddingBottom="5dp"
+                            android:layout_marginLeft="12dp"
+
+                            />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bleach"
+
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="25dp"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginTop="30dp"
+                    >
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/haoirryrspa"
+                            android:scaleType="fitXY"
+
+
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bleach"
+                            android:layout_alignParentBottom="true"
+                            android:textSize="25sp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:paddingBottom="5dp"
+                            android:layout_marginLeft="12dp"
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main_drawer"
+    android:background="#ffffff"
     tools:context=".MainActivity">
 
     <com.google.android.material.navigation.NavigationView
@@ -17,7 +18,9 @@
         android:fitsSystemWindows="true"
         >
     </com.google.android.material.navigation.NavigationView>
+
     <ScrollView
+        android:background="#ffffff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <LinearLayout
