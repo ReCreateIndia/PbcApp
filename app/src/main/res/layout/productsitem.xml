@@ -11,16 +11,18 @@
         android:gravity="center_vertical"
         app:cardCornerRadius="20dp"
         android:layout_margin="8dp">
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
+            android:orientation="vertical"
+            android:gravity="center"
             >
 
             <TextView
                 android:id="@+id/title1p"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
                 android:text="Title"
                 android:textColor="#000000"
                 android:textSize="20sp"
@@ -32,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
 
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="15dp"
                 android:background="@drawable/donate1"
                 android:scaleType="centerCrop" />
 
@@ -42,8 +44,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/pimage1"
                 android:text="Price :"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
+
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="10dp"
 
                 android:textSize="18sp"
 
@@ -51,7 +54,7 @@
 
 
 
-        </RelativeLayout>
+        </LinearLayout>
 
 
 

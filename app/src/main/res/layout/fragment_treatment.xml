@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <com.denzcoskun.imageslider.ImageSlider
-                android:id="@+id/image_slider"
+                android:id="@+id/image_slider2"
                 android:layout_width="wrap_content"
                 android:layout_height="250dp"
                 app:auto_cycle="true"

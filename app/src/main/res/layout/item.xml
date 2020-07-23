@@ -8,24 +8,28 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
+        android:gravity="center"
         app:cardCornerRadius="20dp"
         android:layout_margin="8dp">
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="360dp"
+            android:orientation="vertical"
+            android:gravity="center"
             >
 
         <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Title"
+            android:textColor="#000000"
         android:textSize="22sp"
         android:textStyle="bold"
-            android:layout_gravity="center_horizontal"
-        android:textColor="#000000"
+            android:layout_marginTop="10dp"
+
+
         android:id="@+id/Title1"
-            android:layout_marginLeft="150dp"
+
 
 
 
@@ -33,27 +37,25 @@
 
             <ImageView
                 android:id="@+id/image"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="10dp"
+
+
                 android:background="@drawable/donate1"
                 android:scaleType="centerCrop" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
 
             <TextView
                 android:id="@+id/price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="30dp"
-                android:layout_marginLeft="51dp"
-                android:layout_marginBottom="55dp"
+
                 android:text="Price :"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -63,12 +65,7 @@
                 android:id="@+id/pricegiven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="15dp"
-                android:layout_marginLeft="21dp"
-                android:layout_marginBottom="55dp"
-                android:layout_toEndOf="@+id/price"
-                android:layout_toRightOf="@+id/price"
+                android:layout_marginLeft="12dp"
                 android:text="200"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -78,12 +75,7 @@
                 android:id="@+id/or"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="18dp"
-                android:layout_marginLeft="12dp"
-                android:layout_marginBottom="55dp"
-                android:layout_toEndOf="@+id/pricegiven"
-                android:layout_toRightOf="@+id/pricegiven"
+                android:layout_marginLeft="30dp"
                 android:text="Get :"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -93,12 +85,7 @@
                 android:id="@+id/getpoints"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="18dp"
-                android:layout_marginLeft="18dp"
-                android:layout_marginBottom="55dp"
-                android:layout_toEndOf="@+id/or"
-                android:layout_toRightOf="@+id/or"
+                android:layout_marginLeft="12dp"
                 android:text="160"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -109,12 +96,7 @@
                 android:id="@+id/plus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="21dp"
-                android:layout_marginLeft="21dp"
-                android:layout_marginBottom="55dp"
-                android:layout_toEndOf="@+id/getpoints"
-                android:layout_toRightOf="@+id/getpoints"
+                android:layout_marginLeft="12dp"
                 android:text="+"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -125,16 +107,12 @@
                 android:id="@+id/redeempoints"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="11dp"
-                android:layout_marginLeft="11dp"
-                android:layout_marginBottom="55dp"
-                android:layout_toEndOf="@+id/plus"
-                android:layout_toRightOf="@+id/plus"
+                android:layout_marginLeft="12dp"
                 android:text="40"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#ff8c69"/>
+            </LinearLayout>
 
 
 
@@ -142,16 +120,12 @@
                 android:id="@+id/bookNow"
                 android:layout_width="112dp"
                 android:layout_height="40dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="129dp"
-                android:layout_marginRight="129dp"
-                android:layout_marginBottom="6dp"
+            android:layout_marginTop="14dp"
                 android:background="#ff8c69"
+                android:layout_marginBottom="10dp"
                 android:text="booknow" />
 
-        </RelativeLayout>
+        </LinearLayout>
 
 
 

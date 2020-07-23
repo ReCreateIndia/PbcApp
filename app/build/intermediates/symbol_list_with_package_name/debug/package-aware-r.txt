@@ -1331,6 +1331,8 @@ id icon_only
 id ifRoom
 id image
 id image_slider
+id image_slider1
+id image_slider2
 id image_view
 id info
 id invisible
@@ -1356,6 +1358,8 @@ id loginbutton
 id logout
 id main_drawer
 id makeup
+id makeup1
+id makeup2
 id manecure
 id manecureproduct
 id manecureselect
@@ -1495,9 +1499,6 @@ id up
 id useLogo
 id username
 id videoView1
-id viewPager1
-id viewPager2
-id viewPager3
 id view_offset_helper
 id view_pager
 id visible

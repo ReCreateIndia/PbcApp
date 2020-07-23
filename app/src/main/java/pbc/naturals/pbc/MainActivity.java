@@ -62,10 +62,7 @@ public class MainActivity extends AppCompatActivity  {
         firebaseUser=firebaseAuth.getCurrentUser();
         mediaController=new MediaController(this);
 
-        c10=(CardView)findViewById(R.id.bodypolishing);
-        c11=(CardView)findViewById(R.id.facetreatment);
-        c12=(CardView) findViewById(R.id.hairspa);
-        c13=(CardView)findViewById(R.id.bleach);
+
 
         c1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -147,14 +144,7 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
-        ImageSlider imageslider = findViewById(R.id.image_slider);
-        List<SlideModel> slideModels = new ArrayList<>();
-        slideModels.add(new SlideModel(R.drawable.facial));
-        slideModels.add(new SlideModel(R.drawable.forhhead));
-        slideModels.add(new SlideModel(R.drawable.haircut));
-        slideModels.add(new SlideModel(R.drawable.hiarstyle));
-        slideModels.add(new SlideModel(R.drawable.makeup));
-        imageslider.setImageList(slideModels, true);
+
 
 
 

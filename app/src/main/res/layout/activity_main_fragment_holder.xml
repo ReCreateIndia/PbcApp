@@ -45,9 +45,12 @@
             android:layout_height="50dp"
             android:background="#330033"
             android:textAlignment="center"
+
+
             android:gravity="center_horizontal"
             app:itemHorizontalTranslationEnabled="true"
             app:itemTextColor="#ffffff"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

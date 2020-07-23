@@ -9,8 +9,13 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.models.SlideModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainFragmentHolder extends AppCompatActivity {
     private BottomNavigationView bottomNavigationView;
@@ -31,6 +36,8 @@ public class MainFragmentHolder extends AppCompatActivity {
         bottomNavigationView=findViewById(R.id.selectbottomnavview);
         bottomNavigationView.setOnNavigationItemSelectedListener(navListner);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BeautyFragment()).commit();
+
+
     }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {

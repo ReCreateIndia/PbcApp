@@ -10,6 +10,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.models.SlideModel;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class BeautyFragment extends Fragment {
     private CardView c1,c2,c3,c4,c5,c6,c7,c8,c9;
 
@@ -26,6 +32,15 @@ public class BeautyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_beauty,container,false);
+
+        ImageSlider imageslider = view.findViewById(R.id.image_slider1);
+        List<SlideModel> slideModels = new ArrayList<>();
+        slideModels.add(new SlideModel(R.drawable.facial));
+        slideModels.add(new SlideModel(R.drawable.forhhead));
+        slideModels.add(new SlideModel(R.drawable.haircut));
+        slideModels.add(new SlideModel(R.drawable.hiarstyle));
+        slideModels.add(new SlideModel(R.drawable.makeup));
+        imageslider.setImageList(slideModels, true);
         c1=(CardView)view.findViewById(R.id.makeup);
         c2=(CardView)view.findViewById(R.id.bridal1);
         c3=(CardView)view.findViewById(R.id.facial);
