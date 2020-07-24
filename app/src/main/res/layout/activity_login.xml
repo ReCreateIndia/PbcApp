@@ -6,42 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
     android:orientation="vertical"
-    android:background="#FFE1A5A5"
-    android:weightSum="10">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2.5"
-        android:gravity="center|bottom"
-        >
+    android:background="#FF189BD6"
+    android:gravity="center"
+  >
+
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome"
-            android:textSize="35sp"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"
             android:layout_marginBottom="5dp"
-            />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="4.5"
+            android:text="Welcome"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
 
 
 
-        android:gravity="center"
-        android:orientation="vertical">
+
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="35dp"
             android:layout_marginTop="5dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginRight="35dp"
             app:cardCornerRadius="20dp"
 
             >
@@ -49,28 +38,57 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    />
+                </LinearLayout>
+
 
                 <EditText
                     android:id="@+id/username"
                     android:layout_width="match_parent"
-                    android:layout_height="45dp"
+                    android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:background="@drawable/backgr"
                     android:ems="10"
                     android:gravity="center"
-                    android:hint="Enter Username"
+
                     android:inputType="textPersonName" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="16dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Password"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
 
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="match_parent"
-                    android:layout_height="45dp"
+                    android:layout_height="35dp"
                     android:layout_marginLeft="30dp"
-                    android:layout_marginTop="16dp"
+
                     android:layout_marginRight="30dp"
                     android:background="@drawable/backgr"
                     android:ems="10"
@@ -96,27 +114,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginBottom="20dp"
                     android:text="Forget Your Password?"
-                    android:textColor="#000000"
+                    android:textColor="#FFFF9800"
                     android:textSize="17sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-    </LinearLayout>
 
-        <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-            android:layout_weight="3"
-            android:gravity="center"
-            android:orientation="vertical"
-    >
+
+
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="First Access ?"
                 android:textSize="22sp"
+                android:layout_marginTop="40dp"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"/>
 
@@ -140,5 +154,5 @@
 
 
 
-    </LinearLayout>
+
 </LinearLayout>
