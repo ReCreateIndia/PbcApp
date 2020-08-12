@@ -28,26 +28,26 @@ public class Booking extends AppCompatActivity {
     Button b1;
     TextView tt;
     Spinner spinnn;
-    private FirebaseAuth firebaseAuth;
-    FirebaseFirestore ff;
+    private FirebaseAuth firebaseAuth32;
+    FirebaseFirestore ff12;
     String date1;
     String item;
-    FirebaseUser firebaseUser;
+    FirebaseUser firebaseUser23;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_booking);
 
-        firebaseAuth=FirebaseAuth.getInstance();
+        firebaseAuth32=FirebaseAuth.getInstance();
         tt=findViewById(R.id.ttr);
 
         calender = (CalendarView)
                 findViewById(R.id.calender);
         date_view = (TextView)
                 findViewById(R.id.date_view);
-        ff=FirebaseFirestore.getInstance();
+        ff12=FirebaseFirestore.getInstance();
         b1=findViewById(R.id.Confirmbook);
-        firebaseUser = firebaseAuth.getCurrentUser();
+        firebaseUser23 = firebaseAuth32.getCurrentUser();
 
         spinnn = (Spinner) findViewById(R.id.spinner3);
         List<String> list = new ArrayList<String>();
@@ -125,7 +125,7 @@ public class Booking extends AppCompatActivity {
                 Map<String,Object> map=new HashMap<>();
                 map.put("Date",date1);
                 map.put("Time",item);
-                ff.collection("users").document(firebaseUser.getUid()).collection("Booking").document(firebaseUser.getUid()).set(map);
+                ff12.collection("users").document(firebaseUser23.getUid()).collection("Booking").document("booking").set(map);
             }
         });
     }
