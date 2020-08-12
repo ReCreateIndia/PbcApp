@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+
     tools:context=".MainActivity2">
 
     <LinearLayout
@@ -15,7 +16,7 @@
             android:textColor="#000000"
             android:textStyle="bold"
             android:layout_marginTop="20dp"
-            android:padding="20dp"
+            android:padding="12dp"
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,7 +24,7 @@
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/makeup1"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="350dp"
 
 
             android:layout_alignParentTop="true"
@@ -38,7 +39,7 @@
             android:textColor="#000000"
             android:textStyle="bold"
             android:layout_marginTop="20dp"
-            android:padding="20dp"
+            android:padding="12dp"
             android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,7 +47,7 @@
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/makeup2"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="400dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
             android:clipToPadding="false"

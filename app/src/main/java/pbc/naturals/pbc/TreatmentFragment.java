@@ -9,6 +9,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.models.SlideModel;
@@ -50,6 +52,7 @@ public class TreatmentFragment extends Fragment {
             @Override
 
             public void onClick(View v) {
+
                 startActivity(new Intent(getContext(),BodyPolishing.class));
             }
         });

@@ -22,14 +22,14 @@ public class Padecure extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_padecure);
         models12 = new ArrayList<>();
-        models12.add(new PostModal(R.drawable.facial,"Cleanup","tjdwudfuwgd ygdfyudu fugeud"));
-        models12.add(new PostModal(R.drawable.facial,"D-Tan Facial","tjdwudfuwgd ygdfyudu fugeud"));
-        models12.add(new PostModal(R.drawable.facial,"Complexion","tjdwudfuwgd ygdfyudu fugeud"));
+        models12.add(new PostModal(R.drawable.facial,"Basic pedicure","tjdwudfuwgd ygdfyudu fugeud"));
+        models12.add(new PostModal(R.drawable.facial,"Spa pedicure","tjdwudfuwgd ygdfyudu fugeud"));
+        models12.add(new PostModal(R.drawable.facial,"International pedicure","tjdwudfuwgd ygdfyudu fugeud"));
 
         list9=new ArrayList<>();
-        list9.add(new Priceitem(R.drawable.tgreadingg, "250","20","30","CleanUp"));
-        list9.add(new Priceitem(R.drawable.upperlip, "550","75","75","D-Tan Facial"));
-        list9.add(new Priceitem(R.drawable.forhhead, "950","100","100","Complexion Facial"));
+        list9.add(new Priceitem(R.drawable.tgreadingg, "600","75","75","Basic pedicure"));
+        list9.add(new Priceitem(R.drawable.upperlip, "800","80","80","Spa pedicure"));
+        list9.add(new Priceitem(R.drawable.forhhead, "1100","100","100","International pedicure"));
 
 
         adap9 = new Adapter2(models12, this);

@@ -7,7 +7,7 @@
     tools:context=".RegisterActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#FF189BD6">
+    android:background="@drawable/hj">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
 
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/Rusername"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginLeft="25dp"
@@ -48,7 +48,7 @@
 
         android:background="@drawable/backgr"
         android:ems="10"
-        android:hint="Enter Username"
+
         />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                     />
             </LinearLayout>
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/Rpassword"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginLeft="25dp"
@@ -73,7 +73,6 @@
 
         android:ems="10"
         android:background="@drawable/backgr"
-        android:hint="Enter Password"
 
       />
             <LinearLayout
@@ -92,7 +91,7 @@
             </LinearLayout>
 
     <EditText
-        android:id="@+id/confirmPassword"
+        android:id="@+id/RconfirmPassword"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginLeft="25dp"
@@ -100,24 +99,24 @@
 
         android:ems="10"
         android:background="@drawable/backgr"
-        android:hint="confirm password"
+
    />
 
-    <Button
-        android:id="@+id/register1"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/buttonback"
-        android:gravity="center"
-        android:text="Register"
-        android:layout_marginBottom="25dp"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        android:textSize="20sp"
-         />
+            <Button
+                android:id="@+id/register1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/buttonback"
+                android:gravity="center"
+                android:text="Register"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#F42929"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -132,6 +131,7 @@
 
     <Button
         android:id="@+id/gotologin"
+
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="45dp"

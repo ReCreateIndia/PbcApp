@@ -25,14 +25,14 @@ public class BodyPolishing extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_body_polishing);
         models10 = new ArrayList<>();
-        models10.add(new PostModal(R.drawable.facial,"Blow Dry","tjdwudfuwgd ygdfyudu fugeud"));
-        models10.add(new PostModal(R.drawable.facial,"Straightening","tjdwudfuwgd ygdfyudu fugeud"));
-        models10.add(new PostModal(R.drawable.facial,"Curling","tjdwudfuwgd ygdfyudu fugeud"));
+        models10.add(new PostModal(R.drawable.facial,"Full Body Polishing","tjdwudfuwgd ygdfyudu fugeud"));
+        models10.add(new PostModal(R.drawable.facial,"Spa Body Polishing","tjdwudfuwgd ygdfyudu fugeud"));
+        models10.add(new PostModal(R.drawable.facial,"Spa Body Massage with  Steam Bath","tjdwudfuwgd ygdfyudu fugeud"));
 
         list7=new ArrayList<>();
-        list7.add(new Priceitem(R.drawable.tgreadingg, "100","25","0","Blow Dry"));
-        list7.add(new Priceitem(R.drawable.upperlip, "250","50","30","Straightening"));
-        list7.add(new Priceitem(R.drawable.forhhead, "950","100","100","Curling"));
+        list7.add(new Priceitem(R.drawable.tgreadingg, "2500","150","150","Full Body Polishing"));
+        list7.add(new Priceitem(R.drawable.upperlip, "3000","250","250","Spa Body Polishing"));
+        list7.add(new Priceitem(R.drawable.forhhead, "2000","150","100","Spa Body Massage with  Steam Bath"));
 
 
         adap7 = new Adapter2(models10, this);

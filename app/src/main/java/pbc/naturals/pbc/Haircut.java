@@ -23,11 +23,10 @@ public class Haircut extends AppCompatActivity {
         setContentView(R.layout.activity_haircut);
 
         list13=new ArrayList<>();
-        list13.add(new Priceitem(R.drawable.tgreadingg, "250","20","30","CleanUp"));
-        list13.add(new Priceitem(R.drawable.upperlip, "550","75","75","D-Tan Facial"));
-        list13.add(new Priceitem(R.drawable.forhhead, "950","100","100","Complexion Facial"));
-        list13.add(new Priceitem(R.drawable.forhhead, "1200","100","100","Diamond Facial"));
-        list13.add(new Priceitem(R.drawable.forhhead, "2100","150","200","Organic Facial"));
+        list13.add(new Priceitem(R.drawable.tgreadingg, "100","25","25","Trimming"));
+        list13.add(new Priceitem(R.drawable.upperlip, "150","25","25","Trimming in smart cut"));
+        list13.add(new Priceitem(R.drawable.forhhead, "250","50","50","Latest smart cut"));
+        list13.add(new Priceitem(R.drawable.forhhead, "299","50","50","Latest smart cut with blow dry"));
 
 
 
@@ -35,7 +34,7 @@ public class Haircut extends AppCompatActivity {
                 getResources().getColor(R.color.color2),
                 getResources().getColor(R.color.color3),
                 getResources().getColor(R.color.color4),
-                getResources().getColor(R.color.color4)
+                
         };
         colors13=colors_temp4;
         ad13 = new PriceAdapter(list13, this);

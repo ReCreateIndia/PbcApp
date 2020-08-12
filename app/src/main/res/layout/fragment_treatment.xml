@@ -39,13 +39,14 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/bodypolishing"
 
+
                     android:layout_columnWeight="1"
                     android:layout_row="0"
                     android:layout_column="0"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="25dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     android:layout_marginTop="30dp"
                     >
                     <RelativeLayout
@@ -85,8 +86,8 @@
                     android:layout_column="1"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="25dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     android:layout_marginTop="30dp"
                     >
                     <RelativeLayout
@@ -98,7 +99,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="100dp"
-                            android:src="@drawable/bodypolishingg"
+                            android:src="@drawable/facet3"
                             android:scaleType="fitXY"
 
 
@@ -126,8 +127,8 @@
                     android:layout_column="0"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="35dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     android:layout_marginTop="30dp"
                     >
                     <RelativeLayout
@@ -165,8 +166,8 @@
                     android:layout_column="1"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="25dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     android:layout_marginTop="30dp"
                     >
                     <RelativeLayout
@@ -178,7 +179,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="100dp"
-                            android:src="@drawable/haoirryrspa"
+                            android:src="@drawable/facet2"
                             android:scaleType="fitXY"
 
 

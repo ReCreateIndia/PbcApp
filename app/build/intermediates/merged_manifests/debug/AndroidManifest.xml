@@ -18,18 +18,14 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="pbc.naturals.pbc.Cartitems" />
+        <activity android:name="pbc.naturals.pbc.Booking" >
+        </activity>
         <activity android:name="pbc.naturals.pbc.MainFragmentHolder" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="pbc.naturals.pbc.Padecure" />
         <activity android:name="pbc.naturals.pbc.Manecure" />
@@ -45,10 +41,15 @@
         <activity android:name="pbc.naturals.pbc.BridalPackage" />
         <activity android:name="pbc.naturals.pbc.MainActivity2" />
         <activity android:name="pbc.naturals.pbc.RegisterActivity" />
-        <activity android:name="pbc.naturals.pbc.LoginActivity" />
-        <activity android:name="pbc.naturals.pbc.ItemDetail" />
-        <activity android:name="pbc.naturals.pbc.MainActivity" >
+        <activity android:name="pbc.naturals.pbc.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity android:name="pbc.naturals.pbc.ItemDetail" />
+        <activity android:name="pbc.naturals.pbc.MainActivity" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

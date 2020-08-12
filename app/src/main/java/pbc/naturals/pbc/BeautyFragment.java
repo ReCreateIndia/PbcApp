@@ -9,6 +9,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.SearchView;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.models.SlideModel;
@@ -18,6 +21,10 @@ import java.util.List;
 
 public class BeautyFragment extends Fragment {
     private CardView c1,c2,c3,c4,c5,c6,c7,c8,c9;
+    SearchView mysearchview;
+    ListView listView;
+    ArrayList<String> list;
+    ArrayAdapter<String> adptr;
 
     public BeautyFragment() {
         // Required empty public constructor
@@ -34,6 +41,32 @@ public class BeautyFragment extends Fragment {
         View view=inflater.inflate(R.layout.fragment_beauty,container,false);
 
         ImageSlider imageslider = view.findViewById(R.id.image_slider1);
+      mysearchview=(SearchView)view.findViewById(R.id.search_bar);
+      listView=view.findViewById(R.id.listview);
+      list=new ArrayList<String>();
+      list.add("Manecure");
+      list.add("Padecure");
+      list.add("Wax");
+      list.add("Body Polishing");
+      list.add("Bleach");
+      list.add("Threading");
+      adptr=new ArrayAdapter<>(getActivity().getApplicationContext(),android.R.layout.simple_list_item_1,list);
+      listView.setAdapter(adptr);
+      mysearchview.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+          @Override
+          public boolean onQueryTextSubmit(String query) {
+              return false;
+          }
+
+          @Override
+          public boolean onQueryTextChange(String newText) {
+             adptr.getFilter().filter(newText);
+
+
+              return false;
+          }
+      });
+
         List<SlideModel> slideModels = new ArrayList<>();
         slideModels.add(new SlideModel(R.drawable.facial));
         slideModels.add(new SlideModel(R.drawable.forhhead));
@@ -54,19 +87,26 @@ public class BeautyFragment extends Fragment {
             @Override
 
             public void onClick(View v) {
-                startActivity(new Intent(getContext(),MainActivity2.class));
+                startActivity(new Intent(getActivity(),MainActivity2.class));
+                getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_right);
+
+
             }
         });
         c2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getContext(),BridalPackage.class));
+                getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_right);
+
             }
         });
         c3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getContext(),Facial.class));
+                getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_right);
+
             }
         });
         c4.setOnClickListener(new View.OnClickListener() {
