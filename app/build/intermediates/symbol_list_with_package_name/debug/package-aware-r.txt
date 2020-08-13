@@ -1063,6 +1063,20 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back11
+drawable back12
+drawable back13
+drawable back14
+drawable back15
+drawable back16
+drawable back17
+drawable back18
+drawable back19
+drawable back4
+drawable back5
+drawable back8
+drawable backgr
+drawable background2
 drawable bodypolishingg
 drawable bridalpackage
 drawable btn
@@ -1074,6 +1088,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable buttonback
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1151,6 +1166,7 @@ drawable ow
 drawable padecureee
 drawable placeholder
 drawable primary_btn_bg
+drawable reigsterback
 drawable text_input_bg
 drawable tgreadingg
 drawable tooltip_frame_dark
