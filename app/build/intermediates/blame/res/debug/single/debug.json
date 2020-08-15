@@ -56,16 +56,16 @@
         "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\back12.jpg"
     },
     {
-        "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_fragment_holder.xml.flat",
-        "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\layout\\activity_main_fragment_holder.xml"
+        "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_settings_black_24dp.png.flat",
+        "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_settings_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yufgu.jpg.flat",
         "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\yufgu.jpg"
     },
     {
-        "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_settings_black_24dp.png.flat",
-        "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_settings_black_24dp.png"
+        "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_fragment_holder.xml.flat",
+        "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\layout\\activity_main_fragment_holder.xml"
     },
     {
         "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_left.xml.flat",
@@ -96,24 +96,24 @@
         "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\layout\\activity_face_treatment.xml"
     },
     {
-        "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back8.jpg.flat",
-        "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\back8.jpg"
-    },
-    {
         "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person_black_24dp.png.flat",
         "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back8.jpg.flat",
+        "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\back8.jpg"
     },
     {
         "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_primary_btn_bg.xml.flat",
         "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\primary_btn_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_black_24dp.png.flat",
-        "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_singleitem.xml.flat",
         "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\layout\\singleitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_black_24dp.png.flat",
+        "source": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Prachi Singhal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_haircut.xml.flat",

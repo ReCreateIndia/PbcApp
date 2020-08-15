@@ -20,7 +20,7 @@
 14-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Prachi Singhal\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:27:22-64
 15
 16    <application
-16-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:5:5-42:19
+16-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:5:5-43:19
 17        android:name="androidx.multidex.MultiDexApplication"
 18        android:allowBackup="true"
 18-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:6:9-35
@@ -31,82 +31,82 @@
 21-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:7:9-41
 22        android:supportsRtl="true"
 22-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:8:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:9:9-40
-25        <activity android:name="pbc.naturals.pbc.Cartitems" />
-25-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:10:9-56
-25-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:10:19-44
-26        <activity android:name="pbc.naturals.pbc.Booking" >
-26-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:11:9-13:20
-26-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:11:19-42
-27        </activity>
-28        <activity android:name="pbc.naturals.pbc.MainFragmentHolder" >
-28-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:14:9-17:20
-28-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:14:19-53
-29        </activity>
-30        <activity android:name="pbc.naturals.pbc.Padecure" />
-30-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:18:9-46
-30-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:18:19-43
-31        <activity android:name="pbc.naturals.pbc.Manecure" />
-31-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:19:9-46
-31-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:19:19-43
-32        <activity android:name="pbc.naturals.pbc.Haircut" />
-32-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:20:9-45
-32-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:20:19-42
-33        <activity android:name="pbc.naturals.pbc.Bleach" />
-33-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:21:9-44
-33-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:21:19-41
-34        <activity android:name="pbc.naturals.pbc.FaceTreatment" />
-34-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:22:9-51
-34-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:22:19-48
-35        <activity android:name="pbc.naturals.pbc.HairSpa" />
-35-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:23:9-45
-35-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:23:19-42
-36        <activity android:name="pbc.naturals.pbc.BodyPolishing" />
-36-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:24:9-51
-36-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:24:19-48
-37        <activity android:name="pbc.naturals.pbc.HairStyle" />
-37-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:25:9-47
-37-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:25:19-44
-38        <activity android:name="pbc.naturals.pbc.Threading" />
-38-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:26:9-47
-38-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:26:19-44
-39        <activity android:name="pbc.naturals.pbc.Wax" />
-39-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:27:9-41
-39-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:27:19-38
-40        <activity android:name="pbc.naturals.pbc.Facial" />
-40-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:28:9-44
-40-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:28:19-41
-41        <activity android:name="pbc.naturals.pbc.BridalPackage" />
-41-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:29:9-51
-41-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:29:19-48
-42        <activity android:name="pbc.naturals.pbc.MainActivity2" />
-42-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:30:9-51
-42-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:30:19-48
-43        <activity android:name="pbc.naturals.pbc.RegisterActivity" />
-43-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:31:9-54
-43-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:31:19-51
-44        <activity android:name="pbc.naturals.pbc.LoginActivity" >
-44-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:32:9-39:20
-44-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:32:19-48
-45            <intent-filter>
-45-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:33:13-37:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:34:17-69
-46-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:34:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:36:17-77
-48-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:36:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity android:name="pbc.naturals.pbc.ItemDetail" />
-51-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:40:9-48
-51-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:40:19-45
-52        <activity android:name="pbc.naturals.pbc.MainActivity" />
-52-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:41:9-50
-52-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:41:19-47
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:9:9-40
+24        <activity android:name="pbc.naturals.pbc.Cartitems" />
+24-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:10:9-56
+24-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:10:19-44
+25        <activity android:name="pbc.naturals.pbc.Booking" >
+25-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:11:9-13:20
+25-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:11:19-42
+26        </activity>
+27        <activity android:name="pbc.naturals.pbc.MainFragmentHolder" >
+27-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:14:9-15:20
+27-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:14:19-53
+28        </activity>
+29        <activity android:name="pbc.naturals.pbc.Padecure" />
+29-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:16:9-46
+29-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:16:19-43
+30        <activity android:name="pbc.naturals.pbc.Manecure" />
+30-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:17:9-46
+30-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:17:19-43
+31        <activity android:name="pbc.naturals.pbc.Haircut" />
+31-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:18:9-45
+31-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:18:19-42
+32        <activity android:name="pbc.naturals.pbc.Bleach" />
+32-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:19:9-44
+32-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:19:19-41
+33        <activity android:name="pbc.naturals.pbc.FaceTreatment" />
+33-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:20:9-51
+33-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:20:19-48
+34        <activity android:name="pbc.naturals.pbc.HairSpa" />
+34-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:21:9-45
+34-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:21:19-42
+35        <activity android:name="pbc.naturals.pbc.BodyPolishing" />
+35-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:22:9-51
+35-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:22:19-48
+36        <activity android:name="pbc.naturals.pbc.HairStyle" />
+36-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:23:9-47
+36-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:23:19-44
+37        <activity android:name="pbc.naturals.pbc.Threading" />
+37-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:24:9-47
+37-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:24:19-44
+38        <activity android:name="pbc.naturals.pbc.Wax" />
+38-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:25:9-41
+38-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:25:19-38
+39        <activity android:name="pbc.naturals.pbc.Facial" />
+39-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:26:9-44
+39-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:26:19-41
+40        <activity android:name="pbc.naturals.pbc.BridalPackage" />
+40-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:27:9-51
+40-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:27:19-48
+41        <activity android:name="pbc.naturals.pbc.MainActivity2" />
+41-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:28:9-51
+41-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:28:19-48
+42        <activity android:name="pbc.naturals.pbc.RegisterActivity" />
+42-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:29:9-54
+42-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:29:19-51
+43        <activity android:name="pbc.naturals.pbc.LoginActivity" >
+43-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:31:9-39:20
+43-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:31:19-48
+44            <intent-filter>
+44-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:33:13-37:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:34:17-69
+45-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:34:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:36:17-77
+47-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:36:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="pbc.naturals.pbc.ItemDetail" />
+50-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:40:9-48
+50-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:40:19-45
+51        <activity android:name="pbc.naturals.pbc.MainActivity" >
+51-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:41:9-42:20
+51-->C:\Users\Prachi Singhal\AndroidStudioProjects\PbcApp\app\src\main\AndroidManifest.xml:41:19-47
+52        </activity>
 53
 54        <service
 54-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Prachi Singhal\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19

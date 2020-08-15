@@ -21,7 +21,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class PriceAdapter extends PagerAdapter{
+public class
+PriceAdapter extends PagerAdapter{
     private List<Priceitem> pricelist;
     private LayoutInflater layoutInflater;
     private Context context;

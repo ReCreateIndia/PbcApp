@@ -12,8 +12,6 @@
 
         </activity>
         <activity android:name=".MainFragmentHolder">
-
-
         </activity>
         <activity android:name=".Padecure" />
         <activity android:name=".Manecure" />
@@ -29,7 +27,9 @@
         <activity android:name=".BridalPackage" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".RegisterActivity" />
+
         <activity android:name=".LoginActivity" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,7 +38,8 @@
 
         </activity>
         <activity android:name=".ItemDetail" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity">
+        </activity>
     </application>
 
 </manifest>
