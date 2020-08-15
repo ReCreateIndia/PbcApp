@@ -51,6 +51,7 @@ public class Adapter extends PagerAdapter{
 //        });
         imageView.setImageResource(models.get(position).getImage());
         //title.setText(models.get(position).getTitle());
+
         container.addView(view,0);
 
         return view;

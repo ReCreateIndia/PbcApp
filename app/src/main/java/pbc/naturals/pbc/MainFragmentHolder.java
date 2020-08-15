@@ -60,7 +60,7 @@ public class MainFragmentHolder extends AppCompatActivity {
                     break;
 
             }
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
+            getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.slide_in_right,R.anim.slide_out_right,R.anim.slide_in_left,R.anim.slide_out_left).replace(R.id.fragment_container, selectedFragment).commit();
             return true;
         }
 

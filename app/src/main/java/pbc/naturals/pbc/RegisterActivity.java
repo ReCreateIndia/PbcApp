@@ -19,39 +19,48 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText user_name;
     private EditText pass_word;
     private EditText confirm_password;
-    private FirebaseAuth firebaseAuth;
+    private FirebaseAuth firebaseAuth1;
     private Button regis_ter;
+    private Button logint;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        firebaseAuth=FirebaseAuth.getInstance();
-        user_name=findViewById(R.id.username);
-        pass_word=findViewById(R.id.password);
-        confirm_password=findViewById(R.id.confirmPassword);
+        firebaseAuth1=FirebaseAuth.getInstance();
+        user_name=findViewById(R.id.Rusername);
+        pass_word=findViewById(R.id.Rpassword);
+        logint=findViewById(R.id.gotologin);
+        confirm_password=findViewById(R.id.RconfirmPassword);
         regis_ter=findViewById(R.id.register1);
         regis_ter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if((pass_word.getText().toString())!=(confirm_password.getText().toString())){
-                    firebaseAuth.createUserWithEmailAndPassword(user_name.getText().toString()+"@gmail.com",pass_word.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    firebaseAuth1.createUserWithEmailAndPassword(user_name.getText().toString()+"@gmail.com",pass_word.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isSuccessful()){
                                 startActivity(new Intent(RegisterActivity.this,MainFragmentHolder.class));
                             }
                             else{
-                                Toast.makeText(RegisterActivity.this,"error",Toast.LENGTH_LONG).show();
+                                Toast.makeText(RegisterActivity.this,"Please signup with another username",Toast.LENGTH_LONG).show();
                             }
 
                         }
                     });
                 }
                 else{
-                    Toast.makeText(RegisterActivity.this,"error",Toast.LENGTH_LONG).show();
+                    Toast.makeText(RegisterActivity.this,"Please check the password",Toast.LENGTH_LONG).show();
                 }
             }
         });
+        logint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
+            }
+        });
+
 
 
     }

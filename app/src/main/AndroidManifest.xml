@@ -4,13 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainFragmentHolder">
+        <activity android:name=".Cartitems"></activity>
+        <activity android:name=".Booking">
 
+        </activity>
+        <activity android:name=".MainFragmentHolder">
         </activity>
         <activity android:name=".Padecure" />
         <activity android:name=".Manecure" />
@@ -22,20 +23,22 @@
         <activity android:name=".HairStyle" />
         <activity android:name=".Threading" />
         <activity android:name=".Wax" />
-        <activity android:name=".Facial"></activity>
+        <activity android:name=".Facial" />
         <activity android:name=".BridalPackage" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity">
+
+        <activity android:name=".LoginActivity" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity android:name=".ItemDetail" />
         <activity android:name=".MainActivity">
-
         </activity>
     </application>
 

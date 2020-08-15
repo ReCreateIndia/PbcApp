@@ -22,14 +22,17 @@ public class HairSpa extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hair_spa);
         models13 = new ArrayList<>();
-        models13.add(new PostModal(R.drawable.facial,"Cleanup","tjdwudfuwgd ygdfyudu fugeud"));
-        models13.add(new PostModal(R.drawable.facial,"D-Tan Facial","tjdwudfuwgd ygdfyudu fugeud"));
-        models13.add(new PostModal(R.drawable.facial,"Complexion","tjdwudfuwgd ygdfyudu fugeud"));
+        models13.add(new PostModal(R.drawable.facial,"Basic Hair Spa for nourishment","tjdwudfuwgd ygdfyudu fugeud"));
+        models13.add(new PostModal(R.drawable.facial,"Dandruff Control Hair Spa","tjdwudfuwgd ygdfyudu fugeud"));
+        models13.add(new PostModal(R.drawable.facial,"Hair Fall Control Hair Spa","tjdwudfuwgd ygdfyudu fugeud"));
+        models13.add(new PostModal(R.drawable.facial,"Ayurvedic Hair Spa","tjdwudfuwgd ygdfyudu fugeud"));
+
 
         list10=new ArrayList<>();
-        list10.add(new Priceitem(R.drawable.tgreadingg, "250","20","30","CleanUp"));
-        list10.add(new Priceitem(R.drawable.upperlip, "550","75","75","D-Tan Facial"));
-        list10.add(new Priceitem(R.drawable.forhhead, "950","100","100","Complexion Facial"));
+        list10.add(new Priceitem(R.drawable.tgreadingg, "1000","150","100","Basic Hair Spa for nourishment"));
+        list10.add(new Priceitem(R.drawable.upperlip, "1250","150","125","Dandruff Control Hair Spa"));
+        list10.add(new Priceitem(R.drawable.forhhead, "1500","100","100","Hair Fall Control Hair Spa"));
+        list10.add(new Priceitem(R.drawable.forhhead, "950","150","150","Ayurvedic Hair Spa"));
 
 
 

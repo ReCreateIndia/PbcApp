@@ -6,119 +6,125 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
     android:orientation="vertical"
-    android:background="#20B2AA"
-    android:weightSum="10">
-    <LinearLayout
+    android:background="@drawable/hj"
+    android:gravity="center"
+  >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2.5"
-        android:gravity="center|bottom"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        app:cardCornerRadius="20dp"
+
         >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Welcome"
-            android:textSize="35sp"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"
-            android:layout_marginBottom="5dp"
-            />
-    </LinearLayout>
-
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="4.5"
-
-
+        android:layout_height="wrap_content"
 
         android:gravity="center"
         android:orientation="vertical">
-
-        <androidx.cardview.widget.CardView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="40dp"
-            app:cardCornerRadius="20dp"
-
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
             >
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <EditText
-                    android:id="@+id/username"
-                    android:layout_width="match_parent"
-                    android:layout_height="45dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:background="@drawable/backgr"
-                    android:ems="10"
-                    android:gravity="center"
-                    android:hint="Enter Username"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/password"
-                    android:layout_width="match_parent"
-                    android:layout_height="45dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginRight="30dp"
-                    android:background="@drawable/backgr"
-                    android:ems="10"
-
-                    android:gravity="center"
-                    android:hint="Enter Password"
-                    android:inputType="textPassword" />
-
-                <Button
-                    android:id="@+id/loginbutton"
-                    android:layout_width="match_parent"
-                    android:layout_height="45dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginRight="30dp"
-                    android:background="@drawable/buttonback"
-                    android:gravity="center"
-                    android:text="Login"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="20dp"
-                    android:text="Forget Your Password?"
-                    android:textColor="#000000"
-                    android:textSize="17sp" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-    </LinearLayout>
-
-        <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-            android:layout_weight="3"
-            android:gravity="center"
-            android:orientation="vertical"
-    >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="First Access ?"
-                android:textSize="22sp"
+                android:text="Username"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+        <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/backgr"
+                android:ems="10"
+                android:gravity="center"
+
+
+                android:inputType="textPersonName" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Password"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+
+
+                android:layout_marginRight="30dp"
+                android:background="@drawable/backgr"
+                android:ems="10"
+
+                android:gravity="center"
+
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/loginbutton"
+                android:layout_width="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="30dp"
+
+                android:background="@drawable/buttonback"
+                android:gravity="center"
+                android:text="Login"
                 android:textColor="#FFFFFF"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Forget Your Password ?"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="25dp"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Acess ?"
+        android:textSize="19sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="40dp"
+       />
 
             <Button
                 android:id="@+id/gotoregister"
@@ -128,17 +134,24 @@
                 android:layout_marginRight="45dp"
                 android:text="Register"
                 android:background="@drawable/reigsterback"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:textColor="#FFFFFF"
 
                 android:textAllCaps="false"
-                android:textSize="22sp"
+                android:textSize="22sp"/>
 
-                />
-
-
+        </LinearLayout>
 
 
 
-    </LinearLayout>
-</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

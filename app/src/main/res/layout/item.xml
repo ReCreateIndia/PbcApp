@@ -13,7 +13,7 @@
         android:layout_margin="8dp">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="360dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
             >
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
 
                 android:text="Price :"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="#000000"/>
 
@@ -65,9 +65,9 @@
                 android:id="@+id/pricegiven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
+                android:layout_marginLeft="6dp"
                 android:text="200"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="#ff8c69"/>
 
@@ -75,9 +75,9 @@
                 android:id="@+id/or"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="12dp"
                 android:text="Get :"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="#000000"/>
 
@@ -85,9 +85,9 @@
                 android:id="@+id/getpoints"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
+                android:layout_marginLeft="6dp"
                 android:text="160"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="#ff8c69"
                 />
@@ -96,9 +96,9 @@
                 android:id="@+id/plus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
-                android:text="+"
-                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:text="Redeem"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="#000000"
                 />
@@ -107,9 +107,9 @@
                 android:id="@+id/redeempoints"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
+                android:layout_marginLeft="6dp"
                 android:text="40"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="#ff8c69"/>
             </LinearLayout>
@@ -123,7 +123,7 @@
             android:layout_marginTop="14dp"
                 android:background="#ff8c69"
                 android:layout_marginBottom="10dp"
-                android:text="booknow" />
+                android:text="Add For booking" />
 
         </LinearLayout>
 

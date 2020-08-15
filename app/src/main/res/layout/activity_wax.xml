@@ -5,47 +5,101 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Wax">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+         android:orientation="horizontal">
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="50dp"
+           android:layout_marginRight="50dp"
+           android:id="@+id/Dtan"
+
+
+           >
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="130dp"
+                   android:src="@drawable/makeup1"
+                   android:scaleType="fitXY"
+                   />
+
+
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Makeup"
+                   android:layout_alignParentBottom="true"
+                   android:textSize="25sp"
+                   android:textColor="#FFFFFF"
+                   android:textStyle="bold"
+                   android:paddingBottom="10dp"
+                   android:layout_marginLeft="12dp"
+                   />
+
+           </RelativeLayout>
+
+       </androidx.cardview.widget.CardView>
+ </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:id="@+id/layoutdtan"
+        android:visibility="gone">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="25dp"
+          android:layout_marginRight="25dp">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+
+             android:text="Description :"
+              android:textColor="#000000"
+              android:textSize="18sp"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="tduwdibdihiug38yf3ugdgd"
+              android:layout_marginLeft="10dp"
+              android:textSize="15sp"
+              android:textColor="#000000"/>
+      </LinearLayout>
         <TextView
             android:textColor="#000000"
             android:textStyle="bold"
-            android:layout_marginTop="20dp"
-            android:padding="20dp"
-            android:textSize="20sp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select the type of wax
-"></TextView>
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Select The body part where you to have wax "
+            >
+
+        </TextView>
         <androidx.viewpager.widget.ViewPager
-            android:id="@+id/bridalpack1"
+            android:id="@+id/dtantypes"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
 
 
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:clipToPadding="false"
-            android:foregroundGravity="center"
-            android:overScrollMode="never">
-
-
-        </androidx.viewpager.widget.ViewPager>
-        <TextView
-            android:textColor="#000000"
-            android:textStyle="bold"
-            android:layout_marginTop="20dp"
-            android:padding="20dp"
-            android:textSize="20sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Select Option"></TextView>
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/bridalpack2"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
             android:clipToPadding="false"
@@ -55,5 +109,306 @@
 
         </androidx.viewpager.widget.ViewPager>
     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:orientation="horizontal">
+         <androidx.cardview.widget.CardView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="50dp"
+             android:layout_marginRight="50dp"
+             android:id="@+id/Honey"
+
+
+             >
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:layout_width="match_parent"
+                     android:layout_height="130dp"
+                     android:src="@drawable/makeup1"
+                     android:scaleType="fitXY"
+                     />
+
+
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Makeup"
+                     android:layout_alignParentBottom="true"
+                     android:textSize="25sp"
+                     android:textColor="#FFFFFF"
+                     android:textStyle="bold"
+                     android:paddingBottom="10dp"
+                     android:layout_marginLeft="12dp"
+                     />
+
+             </RelativeLayout>
+
+         </androidx.cardview.widget.CardView>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_marginTop="15dp"
+         android:id="@+id/layouthoney"
+         android:visibility="gone">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             android:layout_marginRight="25dp">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+
+                 android:text="Description :"
+                 android:textColor="#000000"
+                 android:textSize="18sp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="tduwdibdihiug38yf3ugdgd"
+                 android:layout_marginLeft="10dp"
+                 android:textSize="15sp"
+                 android:textColor="#000000"/>
+         </LinearLayout>
+         <TextView
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:layout_marginTop="12dp"
+             android:textSize="18sp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             android:layout_marginRight="25dp"
+             android:text="Select The body part where you to have wax "
+             >
+
+         </TextView>
+         <androidx.viewpager.widget.ViewPager
+             android:id="@+id/honeytypes"
+             android:layout_width="match_parent"
+             android:layout_height="400dp"
+             android:layout_marginTop="10dp"
+
+
+             android:layout_alignParentTop="true"
+             android:layout_alignParentBottom="true"
+             android:clipToPadding="false"
+             android:foregroundGravity="center"
+             android:overScrollMode="never">
+
+
+         </androidx.viewpager.widget.ViewPager>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:orientation="horizontal">
+         <androidx.cardview.widget.CardView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="50dp"
+             android:layout_marginRight="50dp"
+             android:id="@+id/Organic"
+
+
+             >
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:layout_width="match_parent"
+                     android:layout_height="130dp"
+                     android:src="@drawable/makeup1"
+                     android:scaleType="fitXY"
+                     />
+
+
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Makeup"
+                     android:layout_alignParentBottom="true"
+                     android:textSize="25sp"
+                     android:textColor="#FFFFFF"
+                     android:textStyle="bold"
+                     android:paddingBottom="10dp"
+                     android:layout_marginLeft="12dp"
+                     />
+
+             </RelativeLayout>
+
+         </androidx.cardview.widget.CardView>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_marginTop="15dp"
+         android:id="@+id/layoutorganic"
+         android:visibility="gone">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             android:layout_marginRight="25dp">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+
+                 android:text="Description :"
+                 android:textColor="#000000"
+                 android:textSize="18sp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="tduwdibdihiug38yf3ugdgd"
+                 android:layout_marginLeft="10dp"
+                 android:textSize="15sp"
+                 android:textColor="#000000"/>
+         </LinearLayout>
+         <TextView
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:layout_marginTop="12dp"
+             android:textSize="18sp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             android:layout_marginRight="25dp"
+             android:text="Select The body part where you to have wax "
+             >
+
+         </TextView>
+         <androidx.viewpager.widget.ViewPager
+             android:id="@+id/organictypes"
+             android:layout_width="match_parent"
+             android:layout_height="400dp"
+             android:layout_marginTop="10dp"
+
+
+             android:layout_alignParentTop="true"
+             android:layout_alignParentBottom="true"
+             android:clipToPadding="false"
+             android:foregroundGravity="center"
+             android:overScrollMode="never">
+
+
+         </androidx.viewpager.widget.ViewPager>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:orientation="horizontal">
+         <androidx.cardview.widget.CardView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="50dp"
+             android:layout_marginRight="50dp"
+             android:id="@+id/Rica"
+
+
+             >
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:layout_width="match_parent"
+                     android:layout_height="130dp"
+                     android:src="@drawable/makeup1"
+                     android:scaleType="fitXY"
+                     />
+
+
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Makeup"
+                     android:layout_alignParentBottom="true"
+                     android:textSize="25sp"
+                     android:textColor="#FFFFFF"
+                     android:textStyle="bold"
+                     android:paddingBottom="10dp"
+                     android:layout_marginLeft="12dp"
+                     />
+
+             </RelativeLayout>
+
+         </androidx.cardview.widget.CardView>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_marginTop="15dp"
+         android:id="@+id/layoutrica"
+         android:visibility="gone">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             android:layout_marginRight="25dp">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+
+                 android:text="Description :"
+                 android:textColor="#000000"
+                 android:textSize="18sp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="tduwdibdihiug38yf3ugdgd"
+                 android:layout_marginLeft="10dp"
+                 android:textSize="15sp"
+                 android:textColor="#000000"/>
+         </LinearLayout>
+         <TextView
+             android:textColor="#000000"
+             android:textStyle="bold"
+             android:layout_marginTop="12dp"
+             android:textSize="18sp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             android:layout_marginRight="25dp"
+             android:text="Select The body part where you to have wax "
+             >
+
+         </TextView>
+         <androidx.viewpager.widget.ViewPager
+             android:id="@+id/ricatypes"
+             android:layout_width="match_parent"
+             android:layout_height="400dp"
+             android:layout_marginTop="10dp"
+
+
+             android:layout_alignParentTop="true"
+             android:layout_alignParentBottom="true"
+             android:clipToPadding="false"
+             android:foregroundGravity="center"
+             android:overScrollMode="never">
+
+
+         </androidx.viewpager.widget.ViewPager>
+     </LinearLayout>
+   </LinearLayout>
 
 </ScrollView>

@@ -31,9 +31,9 @@ public class HairStyle extends AppCompatActivity {
         list6=new ArrayList<>();
         list6.add(new Priceitem(R.drawable.tgreadingg, "100","25","0","Blow Dry"));
         list6.add(new Priceitem(R.drawable.upperlip, "250","50","30","Straightening"));
-        list6.add(new Priceitem(R.drawable.forhhead, "950","100","100","Curling"));
-        list6.add(new Priceitem(R.drawable.forhhead, "1200","100","100","Crimping"));
-        list6.add(new Priceitem(R.drawable.forhhead, "2100","150","200","Hair Bun"));
+        list6.add(new Priceitem(R.drawable.forhhead, "250","50","30","Curling"));
+        list6.add(new Priceitem(R.drawable.forhhead, "250","50","30","Crimping"));
+        list6.add(new Priceitem(R.drawable.forhhead, "250 to 500","50","50","Hair Bun"));
 
 
         adap6 = new Adapter2(models9, this);

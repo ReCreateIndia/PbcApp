@@ -19,29 +19,30 @@ public class MainActivity2 extends AppCompatActivity {
 
     ArgbEvaluator argbEvaluator=new ArgbEvaluator();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         models = new ArrayList<>();
-        models.add(new PostModal(R.drawable.facial, "donate","r4rry4r4iur"));
-        models.add(new PostModal(R.drawable.facial, "donate","r4rry4r4iur"));
-        models.add(new PostModal(R.drawable.facial, "donate","r4rry4r4iur"));
-        models.add(new PostModal(R.drawable.facial, "donate","r4rry4r4iur"));
-        models.add(new PostModal(R.drawable.facial, "donate","r4rry4r4iur"));
-        models.add(new PostModal(R.drawable.facial, "donate","r4rry4r4iur"));
-        models.add(new PostModal(R.drawable.facial, "donate","r4rry4r4iur"));
-        models.add(new PostModal(R.drawable.facial, "donate","r4rry4r4iur"));
+        models.add(new PostModal(R.drawable.facial, "Party Makeup","r4rry4r4iur"));
+        models.add(new PostModal(R.drawable.facial, "3D Party Makeup","r4rry4r4iur"));
+        models.add(new PostModal(R.drawable.facial, "Engagement Makeup (Mac Pro)","r4rry4r4iur"));
+        models.add(new PostModal(R.drawable.facial, "3D Engagement Makeup","r4rry4r4iur"));
+        models.add(new PostModal(R.drawable.facial, "Derma Makeup","r4rry4r4iur"));
+        models.add(new PostModal(R.drawable.facial, "Mac Pro Bridal Makeup","r4rry4r4iur"));
+        models.add(new PostModal(R.drawable.facial, "HD Bridal Makeup","r4rry4r4iur"));
+        models.add(new PostModal(R.drawable.facial, "3D Bridal Makeup","r4rry4r4iur"));
         list = new ArrayList<>();
 
-        list.add(new Priceitem(R.drawable.tgreadingg, "250","20","30","CleanUp"));
-        list.add(new Priceitem(R.drawable.upperlip, "550","75","75","D-Tan Facial"));
-        list.add(new Priceitem(R.drawable.forhhead, "950","100","100","Complexion Facial"));
-        list.add(new Priceitem(R.drawable.tgreadingg, "250","20","30","CleanUp"));
-        list.add(new Priceitem(R.drawable.upperlip, "550","75","75","D-Tan Facial"));
-        list.add(new Priceitem(R.drawable.forhhead, "950","100","100","Complexion Facial"));
-        list.add(new Priceitem(R.drawable.upperlip, "550","75","75","D-Tan Facial"));
-        list.add(new Priceitem(R.drawable.forhhead, "950","100","100","Complexion Facial"));
+        list.add(new Priceitem(R.drawable.tgreadingg, "1500","150","100","Party Makeup"));
+        list.add(new Priceitem(R.drawable.upperlip, "2500","200","200","3D Party Makeup"));
+        list.add(new Priceitem(R.drawable.forhhead, "5000","350","300","Engagement Makeup (Mac Pro)"));
+        list.add(new Priceitem(R.drawable.tgreadingg, "7500","500","500","3D Engagement Makeup"));
+        list.add(new Priceitem(R.drawable.upperlip, "7500","350","350","Derma Makeup"));
+        list.add(new Priceitem(R.drawable.forhhead, "10000","500","500","Mac Pro Bridal Makeup"));
+        list.add(new Priceitem(R.drawable.upperlip, "10000","500","500","HD Bridal Makeup"));
+        list.add(new Priceitem(R.drawable.forhhead, "15000","1000","1000","3D Bridal Makeup"));
         
 
         adapter = new Adapter2(models, this);

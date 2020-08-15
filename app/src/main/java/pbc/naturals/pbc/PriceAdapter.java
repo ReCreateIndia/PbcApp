@@ -12,12 +12,26 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import java.util.List;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.FirebaseFirestore;
 
-public class PriceAdapter extends PagerAdapter{
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class
+PriceAdapter extends PagerAdapter{
     private List<Priceitem> pricelist;
     private LayoutInflater layoutInflater;
     private Context context;
+    private FirebaseAuth firebaseAuth2;
+   private FirebaseFirestore ff1;
+
+   private FirebaseUser firebaseUser1;
+
+
 
     public PriceAdapter(List<Priceitem> pricelist,Context context) {
         this.pricelist = pricelist;
@@ -36,16 +50,21 @@ public class PriceAdapter extends PagerAdapter{
 
     @NonNull
     @Override
-    public Object instantiateItem(@NonNull final ViewGroup container, int position) {
+    public Object instantiateItem(@NonNull final ViewGroup container, final int position) {
         layoutInflater=LayoutInflater.from(context);
         View view2 =layoutInflater.inflate(R.layout.item,container,false);
         ImageView imageView1;
+        Button bt;
         TextView price,get,redeem,ttle;
         imageView1=view2.findViewById(R.id.image);
         price=view2.findViewById(R.id.pricegiven);
         get=view2.findViewById(R.id.getpoints);
         redeem=view2.findViewById(R.id.redeempoints);
         ttle=view2.findViewById(R.id.Title1);
+        bt=view2.findViewById(R.id.bookNow);
+        firebaseAuth2=FirebaseAuth.getInstance();
+        ff1=FirebaseFirestore.getInstance();
+        firebaseUser1 = firebaseAuth2.getCurrentUser();
 
 
 
@@ -54,7 +73,20 @@ public class PriceAdapter extends PagerAdapter{
         get.setText(pricelist.get(position).getPoints());
         redeem.setText(pricelist.get(position).getRedeem());
         ttle.setText(pricelist.get(position).getTitle());
+        ArrayList<CartModel> exampleList=new ArrayList<>();
+
         container.addView(view2,0);
+        bt.setOnClickListener(new View.OnClickListener() {
+
+            @Override public void onClick(View v) {
+                Map<String,Object> map1=new HashMap<>();
+                map1.put("Title",pricelist.get(position).getTitle());
+                map1.put("Price",pricelist.get(position).getPrice());
+                map1.put("Redeem",pricelist.get(position).getRedeem());
+                ff1.collection("users").document(firebaseUser1.getUid()).collection("Cart").document("present").collection("Present").document().set(map1);
+                context.startActivity(new Intent(context,Cartitems.class));
+            }
+        });
 
         return view2;
     }

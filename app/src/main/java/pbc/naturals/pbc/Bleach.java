@@ -22,17 +22,15 @@ public class Bleach extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bleach);
         models14 = new ArrayList<>();
-        models14.add(new PostModal(R.drawable.facial,"Cleanup","tjdwudfuwgd ygdfyudu fugeud"));
-        models14.add(new PostModal(R.drawable.facial,"D-Tan Facial","tjdwudfuwgd ygdfyudu fugeud"));
-        models14.add(new PostModal(R.drawable.facial,"Complexion","tjdwudfuwgd ygdfyudu fugeud"));
-        models14.add(new PostModal(R.drawable.facial,"Diamond Facial","tjdwudfuwgd ygdfyudu fugeud"));
-        models14.add(new PostModal(R.drawable.facial,"Organic Facial","tjdwudfuwgd ygdfyudu fugeud"));
+        models14.add(new PostModal(R.drawable.facial,"Ayurved Bleach","tjdwudfuwgd ygdfyudu fugeud"));
+        models14.add(new PostModal(R.drawable.facial,"Protein-X-Bleach","tjdwudfuwgd ygdfyudu fugeud"));
+        models14.add(new PostModal(R.drawable.facial,"D-Tan Bleach","tjdwudfuwgd ygdfyudu fugeud"));
+
         list14=new ArrayList<>();
-        list14.add(new Priceitem(R.drawable.tgreadingg, "250","20","30","CleanUp"));
-        list14.add(new Priceitem(R.drawable.upperlip, "550","75","75","D-Tan Facial"));
-        list14.add(new Priceitem(R.drawable.forhhead, "950","100","100","Complexion Facial"));
-        list14.add(new Priceitem(R.drawable.forhhead, "1200","100","100","Diamond Facial"));
-        list14.add(new Priceitem(R.drawable.forhhead, "2100","150","200","Organic Facial"));
+        list14.add(new Priceitem(R.drawable.tgreadingg, "250","50","0","Ayurved Bleach"));
+        list14.add(new Priceitem(R.drawable.upperlip, "350","50","50","Protein-X-Bleach"));
+        list14.add(new Priceitem(R.drawable.forhhead, "500","75","50","D-Tan Bleach"));
+
 
 
         adap14 = new Adapter2(models14, this);

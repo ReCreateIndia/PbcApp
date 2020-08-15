@@ -22,14 +22,14 @@ public class Manecure extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manecure);
         models14 = new ArrayList<>();
-        models14.add(new PostModal(R.drawable.facial,"Cleanup","tjdwudfuwgd ygdfyudu fugeud"));
-        models14.add(new PostModal(R.drawable.facial,"D-Tan Facial","tjdwudfuwgd ygdfyudu fugeud"));
-        models14.add(new PostModal(R.drawable.facial,"Complexion","tjdwudfuwgd ygdfyudu fugeud"));
+        models14.add(new PostModal(R.drawable.facial,"Basic manecure","tjdwudfuwgd ygdfyudu fugeud"));
+        models14.add(new PostModal(R.drawable.facial,"Spa manecure","tjdwudfuwgd ygdfyudu fugeud"));
+        models14.add(new PostModal(R.drawable.facial,"International manecure(D-tan properties)","tjdwudfuwgd ygdfyudu fugeud"));
 
         list11=new ArrayList<>();
-        list11.add(new Priceitem(R.drawable.tgreadingg, "250","20","30","CleanUp"));
-        list11.add(new Priceitem(R.drawable.upperlip, "550","75","75","D-Tan Facial"));
-        list11.add(new Priceitem(R.drawable.forhhead, "950","100","100","Complexion Facial"));
+        list11.add(new Priceitem(R.drawable.tgreadingg, "500","50","75","Basic manecure"));
+        list11.add(new Priceitem(R.drawable.upperlip, "700","50","75","Spa manecure"));
+        list11.add(new Priceitem(R.drawable.forhhead, "900","100","100","International manecure(D-tan properties)"));
 
 
         adap11 = new Adapter2(models14, this);

@@ -22,17 +22,19 @@ public class FaceTreatment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_face_treatment);
         models15 = new ArrayList<>();
-        models15.add(new PostModal(R.drawable.facial,"Cleanup","tjdwudfuwgd ygdfyudu fugeud"));
-        models15.add(new PostModal(R.drawable.facial,"D-Tan Facial","tjdwudfuwgd ygdfyudu fugeud"));
-        models15.add(new PostModal(R.drawable.facial,"Complexion","tjdwudfuwgd ygdfyudu fugeud"));
-        models15.add(new PostModal(R.drawable.facial,"Diamond Facial","tjdwudfuwgd ygdfyudu fugeud"));
-        models15.add(new PostModal(R.drawable.facial,"Organic Facial","tjdwudfuwgd ygdfyudu fugeud"));
+        models15.add(new PostModal(R.drawable.facial,"Anti Ageing Treatment","tjdwudfuwgd ygdfyudu fugeud"));
+        models15.add(new PostModal(R.drawable.facial,"Galvanic Facial","tjdwudfuwgd ygdfyudu fugeud"));
+        models15.add(new PostModal(R.drawable.facial,"American Facial","tjdwudfuwgd ygdfyudu fugeud"));
+        models15.add(new PostModal(R.drawable.facial,"German Facial","tjdwudfuwgd ygdfyudu fugeud"));
+        models15.add(new PostModal(R.drawable.facial,"Derma Facial","tjdwudfuwgd ygdfyudu fugeud"));
+        models15.add(new PostModal(R.drawable.facial,"Instant Lightening Treatment","tjdwudfuwgd ygdfyudu fugeud"));
         list15=new ArrayList<>();
-        list15.add(new Priceitem(R.drawable.tgreadingg, "250","20","30","CleanUp"));
-        list15.add(new Priceitem(R.drawable.upperlip, "550","75","75","D-Tan Facial"));
-        list15.add(new Priceitem(R.drawable.forhhead, "950","100","100","Complexion Facial"));
-        list15.add(new Priceitem(R.drawable.forhhead, "1200","100","100","Diamond Facial"));
-        list15.add(new Priceitem(R.drawable.forhhead, "2100","150","200","Organic Facial"));
+        list15.add(new Priceitem(R.drawable.tgreadingg, "250","20","30","Anti Ageing Treatment"));
+        list15.add(new Priceitem(R.drawable.upperlip, "550","75","75","Galvanic Facial"));
+        list15.add(new Priceitem(R.drawable.forhhead, "1800","200","200","American Facial"));
+        list15.add(new Priceitem(R.drawable.forhhead, "2100","250","250","German Facial"));
+        list15.add(new Priceitem(R.drawable.forhhead, "2500","300","300","Derma Facial"));
+        list15.add(new Priceitem(R.drawable.tgreadingg, "5000","500","500","Instant Lightening Treatment"));
 
 
         adap15 = new Adapter2(models15, this);
@@ -43,7 +45,8 @@ public class FaceTreatment extends AppCompatActivity {
                 getResources().getColor(R.color.color2),
                 getResources().getColor(R.color.color3),
                 getResources().getColor(R.color.color4),
-                getResources().getColor(R.color.color4)
+                getResources().getColor(R.color.color4),
+                getResources().getColor(R.color.color2),
         };
         colors15=colors_temp4;
         fact1.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {

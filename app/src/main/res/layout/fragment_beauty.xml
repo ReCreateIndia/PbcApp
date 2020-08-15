@@ -22,9 +22,25 @@
                 app:corner_radius="20"
                 app:period="1000"
                 app:delay="0"
-                android:layout_marginBottom="70dp"
+                android:layout_marginBottom="50dp"
                 tools:ignore="MissingConstraints" >
             </com.denzcoskun.imageslider.ImageSlider>
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:queryHint="Select Service"
+                android:iconifiedByDefault="false"
+                android:layout_marginBottom="40dp"
+                android:id="@+id/search_bar">
+
+            </SearchView>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="12dp"
+                android:id="@+id/listview">
+
+            </ListView>
             <GridLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -83,8 +99,8 @@
                     android:layout_column="1"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="25dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     >
                     <RelativeLayout
 
@@ -98,20 +114,22 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="100dp"
-                            android:src="@drawable/bridalpackage"
+                            android:src="@drawable/bridal2"
+                                android:scaleType="fitXY"
 
 
                             />
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Bridal package"
                             android:layout_alignParentBottom="true"
-                            android:textSize="25sp"
-                            android:textColor="#FFFFFF"
-                            android:textStyle="bold"
-                            android:paddingBottom="10dp"
                             android:layout_marginLeft="12dp"
+                            android:paddingBottom="10dp"
+                            android:text="Bridal package"
+                            android:textColor="#FFFFFF"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
 
                             />
                     </RelativeLayout>
@@ -126,8 +144,8 @@
                     android:layout_column="0"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="35dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     android:layout_marginTop="30dp"
                     >
                     <RelativeLayout
@@ -165,8 +183,8 @@
                     android:layout_column="1"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="25dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     android:layout_marginTop="30dp"
                     >
                     <RelativeLayout
@@ -206,8 +224,8 @@
                     android:layout_column="0"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="35dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     android:layout_marginTop="30dp"
                     >
                     <RelativeLayout
@@ -245,8 +263,8 @@
                     android:layout_column="1"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="25dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     android:layout_marginTop="30dp"
                     >
                     <RelativeLayout
@@ -304,10 +322,10 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="padecure"
+                            android:text="Padecure"
                             android:layout_alignParentBottom="true"
                             android:textSize="25sp"
-                            android:textColor="#000000"
+                            android:textColor="#FFFFFF"
                             android:textStyle="bold"
                             android:paddingBottom="5dp"
                             android:layout_marginLeft="12dp"
@@ -369,8 +387,8 @@
                     android:layout_column="1"
                     android:layout_marginRight="30dp"
                     android:layout_marginLeft="25dp"
-                    app:cardCornerRadius="10dp"
-                    android:elevation="5dp"
+                    app:cardCornerRadius="18dp"
+                    android:elevation="10dp"
                     android:layout_marginTop="30dp"
                     >
                     <RelativeLayout
@@ -382,7 +400,7 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="100dp"
-                            android:src="@drawable/hiarstyle"
+                            android:src="@drawable/hairstyle"
                             android:scaleType="fitXY"
 
 
