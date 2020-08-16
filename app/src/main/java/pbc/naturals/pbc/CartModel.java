@@ -11,6 +11,7 @@ public class CartModel {
         this.price = price;
         this.redeem = redeem;
     }
+    public CartModel(){}
 
     public String getTitle() {
         return title;

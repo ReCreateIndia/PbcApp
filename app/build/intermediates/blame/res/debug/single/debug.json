@@ -24,20 +24,20 @@
         "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\facet3.jpg"
     },
     {
-        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
-        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\menu\\nav_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_d4.jpg.flat",
-        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\d4.jpg"
+        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_black_24dp.png.flat",
+        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_person_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_black_24dp.png.flat",
         "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_black_24dp.png.flat",
-        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_person_black_24dp.png"
+        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_d4.jpg.flat",
+        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\d4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\menu\\nav_menu.xml"
     },
     {
         "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_manecure.jpg.flat",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\donate4.jpg"
     },
     {
-        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_d3.jpg.flat",
-        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\d3.jpg"
-    },
-    {
         "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_buttonback.xml.flat",
         "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\buttonback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_d3.jpg.flat",
+        "source": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\src\\main\\res\\drawable\\d3.jpg"
     },
     {
         "merged": "C:\\Users\\Anubhav goyal\\AndroidStudioProjects\\PbcApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_keyboard_return_black_24dp.png.flat",

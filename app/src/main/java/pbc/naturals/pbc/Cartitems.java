@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -29,6 +30,7 @@ private RecyclerView mrecycler;
 private RecyclerView.LayoutManager mlayout;
     private FirebaseFirestore ff;
     private CartAdapter adapterg;
+    private FirestoreRecyclerAdapter adapter;
     private FirebaseAuth firebaseAuth;
     private FirebaseUser firebaseUser;
     private List<CartModel> list;
@@ -62,24 +64,56 @@ private RecyclerView.LayoutManager mlayout;
 
     private void setupRecyclerView() {
         Query query2 =  ff.collection("users").document(firebaseUser.getUid()).collection("Cart").document("present").collection("Present");
-            FirestoreRecyclerOptions<CartModel> options=new FirestoreRecyclerOptions.Builder<CartModel>().setQuery(query2,CartModel.class).build();
-            adapterg=new CartAdapter(options);
+        FirestoreRecyclerOptions<CartModel> options=new FirestoreRecyclerOptions.Builder<CartModel>().setQuery(query2,CartModel.class).build();
+        adapter= new FirestoreRecyclerAdapter<CartModel, viewHolder>(options) {
+
+            @NonNull
+            @Override
+            public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+                View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.cartitem,parent,false);
+                return new viewHolder(view);
+            }
+
+            @Override
+            protected void onBindViewHolder(@NonNull viewHolder viewHolder, int i, @NonNull CartModel cartModel) {
+                viewHolder.title.setText(cartModel.getTitle());
+                viewHolder.price.setText(cartModel.getPrice());
+                viewHolder.redem.setText(cartModel.getRedeem());
+            }
+        };
+
         mrecycler=findViewById(R.id.recycler);
-        mrecycler.setHasFixedSize(true);
         mrecycler.setLayoutManager(new LinearLayoutManager(this));
-        mrecycler.setAdapter(adapterg);
+        mrecycler.setAdapter(adapter);
+
 
     }
 
+
+
+    private class viewHolder extends RecyclerView.ViewHolder {
+        TextView title;
+        TextView price;
+        TextView redem;
+
+
+        public viewHolder(@NonNull View itemView) {
+            super(itemView);
+            title=itemView.findViewById(R.id.productname);
+            price=itemView.findViewById(R.id.productprice);
+            redem=itemView.findViewById(R.id.productredeem);
+
+        }
+    }
     @Override
     protected void onStart() {
         super.onStart();
-        adapterg.startListening();
+        adapter.startListening();
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        adapterg.stopListening();
+        adapter.stopListening();
     }
 }
