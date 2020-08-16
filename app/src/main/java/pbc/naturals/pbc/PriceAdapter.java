@@ -80,10 +80,10 @@ PriceAdapter extends PagerAdapter{
 
             @Override public void onClick(View v) {
                 Map<String,Object> map1=new HashMap<>();
-                map1.put("Title",pricelist.get(position).getTitle());
-                map1.put("Price",pricelist.get(position).getPrice());
-                map1.put("Redeem",pricelist.get(position).getRedeem());
-                ff1.collection("users").document(firebaseUser1.getUid()).collection("Cart").document("present").collection("Present").document().set(map1);
+                map1.put("title",pricelist.get(position).getTitle());
+                map1.put("price",pricelist.get(position).getPrice());
+                map1.put("redeem",pricelist.get(position).getRedeem());
+                ff1.collection("users").document(firebaseUser1.getUid()).collection("Cart").document("Present").collection("Present").document().set(map1);
                 context.startActivity(new Intent(context,Cartitems.class));
             }
         });
