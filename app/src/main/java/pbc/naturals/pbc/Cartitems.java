@@ -27,13 +27,13 @@ import java.util.List;
 public class Cartitems extends AppCompatActivity {
 private RecyclerView mrecycler;
 
-private RecyclerView.LayoutManager mlayout;
     private FirebaseFirestore ff;
     private CartAdapter adapterg;
     private FirestoreRecyclerAdapter adapter;
     private FirebaseAuth firebaseAuth;
     private FirebaseUser firebaseUser;
     private List<CartModel> list;
+    private FirestoreRecyclerAdapter adaptert;
     private Button Add;
 
     @Override
@@ -44,12 +44,6 @@ private RecyclerView.LayoutManager mlayout;
         ff= FirebaseFirestore.getInstance();
         firebaseUser = firebaseAuth.getCurrentUser();
         Add=findViewById(R.id.Addmore);
-
-        ArrayList<CartModel> exampleList=new ArrayList<>();
-
-
-
-        setupRecyclerView();
         Add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,13 +51,12 @@ private RecyclerView.LayoutManager mlayout;
             }
         });
 
-
-
-
+        mrecycler=findViewById(R.id.recycler);
+        setupRecyclerView();
     }
 
     private void setupRecyclerView() {
-        Query query2 =  ff.collection("users").document(firebaseUser.getUid()).collection("Cart").document("present").collection("Present");
+        Query query2 =  ff.collection("users").document(firebaseUser.getUid()).collection("Cart").document("Present").collection("Present");
         FirestoreRecyclerOptions<CartModel> options=new FirestoreRecyclerOptions.Builder<CartModel>().setQuery(query2,CartModel.class).build();
         adapter= new FirestoreRecyclerAdapter<CartModel, viewHolder>(options) {
 
@@ -81,15 +74,12 @@ private RecyclerView.LayoutManager mlayout;
                 viewHolder.redem.setText(cartModel.getRedeem());
             }
         };
-
-        mrecycler=findViewById(R.id.recycler);
         mrecycler.setLayoutManager(new LinearLayoutManager(this));
         mrecycler.setAdapter(adapter);
 
 
+
     }
-
-
 
     private class viewHolder extends RecyclerView.ViewHolder {
         TextView title;

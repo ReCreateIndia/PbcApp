@@ -11,10 +11,10 @@ import java.util.List;
 
 public class Threading extends AppCompatActivity {
     ViewPager threading1,threading2;
-    Adapter adapter4;
+    Adapter2 adapter4;
     PriceAdapter ad4;
     Integer[] colors4=null;
-    List<Model> models4;
+    List<PostModal> models4;
     List<Priceitem>list4;
     ArgbEvaluator argbEvaluator4=new ArgbEvaluator();
 
@@ -23,16 +23,16 @@ public class Threading extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_threading);
         models4 = new ArrayList<>();
-        models4.add(new Model(R.drawable.donate1, "donate"));
-        models4.add(new Model(R.drawable.donate2, "donate"));
-        models4.add(new Model(R.drawable.donate3, "donate"));
-        models4.add(new Model(R.drawable.donate4, "donate"));
+        models4.add(new PostModal(R.drawable.facial, "Party Makeup","r4rry4r4iur"));
+        models4.add(new PostModal(R.drawable.facial, "3D Party Makeup","r4rry4r4iur"));
+        models4.add(new PostModal(R.drawable.facial, "Engagement Makeup (Mac Pro)","r4rry4r4iur"));
+        models4.add(new PostModal(R.drawable.facial, "3D Engagement Makeup","r4rry4r4iur"));
         list4=new ArrayList<>();
         list4.add(new Priceitem(R.drawable.tgreadingg, "30","10","10","Threading"));
         list4.add(new Priceitem(R.drawable.upperlip, "10","5","5","Upperlips"));
         list4.add(new Priceitem(R.drawable.forhhead, "10","5","5","Forhead"));
 
-        adapter4 = new Adapter(models4, this);
+        adapter4 = new Adapter2(models4, this);
         threading1 = findViewById(R.id.threading1);
         threading1.setAdapter(adapter4);
         threading1.setPadding(60, 0, 60, 0);
