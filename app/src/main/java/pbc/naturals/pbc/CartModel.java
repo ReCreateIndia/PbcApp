@@ -2,38 +2,38 @@ package pbc.naturals.pbc;
 
 public class CartModel {
 
-    private  String title;
-    private String price;
-    private String redeem;
+    private  String Title;
+    private String Price;
+    private String Redeem;
 
     public CartModel(String title, String price, String redeem) {
-        this.title = title;
-        this.price = price;
-        this.redeem = redeem;
+        this.Title = title;
+        this.Price = price;
+        this.Redeem = redeem;
     }
     public CartModel(){}
 
     public String getTitle() {
-        return title;
+        return Title;
     }
 
     public String getPrice() {
-        return price;
+        return Price;
     }
 
     public String getRedeem() {
-        return redeem;
+        return Redeem;
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        this.Title = title;
     }
 
     public void setPrice(String price) {
-        this.price = price;
+        this.Price = price;
     }
 
     public void setRedeem(String redeem) {
-        this.redeem = redeem;
+        this.Redeem = redeem;
     }
 }
